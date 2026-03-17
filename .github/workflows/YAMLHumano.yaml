@@ -16,7 +16,7 @@ jobs:
         run: echo "Hola clase"
 
       - name: Validar Secret
-        run: echo "El token es ${{ secret.TOKEN }}"
+        run: echo "El token es ${{ secrets.TOKEN }}"
 
       
       
